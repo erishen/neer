@@ -15,7 +15,7 @@
       "jsx": true
     },
     "babelOptions": {
-      "presets": ["@ctrip/ncli-13/babel"],
+      "presets": ["neer/babel"],
       "caller": {
         // Eslint supports top level await when a parser for it is included. We enable the parser by default for Babel.
         "supportsTopLevelAwait": true

@@ -310,7 +310,7 @@ export class FlightManifestPlugin {
         if (/\/next\/dist\//.test(resource)) {
           manifest[
             resource.replace(
-              /\/@ctrip\/ncli-13\/dist\//,
+              /\/neer\/dist\//,
               '/neer/dist/esm/'
             )
           ] = moduleExports

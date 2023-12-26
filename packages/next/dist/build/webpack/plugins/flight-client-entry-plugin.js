@@ -69,7 +69,7 @@ class FlightClientEntryPlugin {
                         ssrNamedModuleId = `./${(0, _normalizePathSep).normalizePathSep(ssrNamedModuleId)}`;
                     }
                     if (this.isEdgeServer) {
-                        edgeServerModuleIds.set(ssrNamedModuleId.replace(/\/@ctrip\/ncli-13\/dist\/esm\//, "/neer/dist/"), modId);
+                        edgeServerModuleIds.set(ssrNamedModuleId.replace(/\/neer\/dist\/esm\//, "/neer/dist/"), modId);
                     } else {
                         serverModuleIds.set(ssrNamedModuleId, modId);
                     }

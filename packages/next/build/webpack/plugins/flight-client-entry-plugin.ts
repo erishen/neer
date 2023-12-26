@@ -106,7 +106,7 @@ export class FlightClientEntryPlugin {
           if (this.isEdgeServer) {
             edgeServerModuleIds.set(
               ssrNamedModuleId.replace(
-                /\/@ctrip\/ncli-13\/dist\/esm\//,
+                /\/neer\/dist\/esm\//,
                 '/neer/dist/'
               ),
               modId

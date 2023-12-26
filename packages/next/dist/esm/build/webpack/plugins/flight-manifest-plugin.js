@@ -162,7 +162,7 @@ export class FlightManifestPlugin {
                 // The client compiler will always use the CJS Next.js build, so here we
                 // also add the mapping for the ESM build (Edge runtime) to consume.
                 if (/\/next\/dist\//.test(resource)) {
-                    manifest[resource.replace(/\/@ctrip\/ncli-13\/dist\//, "/neer/dist/esm/")] = moduleExports;
+                    manifest[resource.replace(/\/neer\/dist\//, "/neer/dist/esm/")] = moduleExports;
                 }
                 manifest.__ssr_module_mapping__ = moduleIdMapping;
                 manifest.__edge_ssr_module_mapping__ = edgeModuleIdMapping;
