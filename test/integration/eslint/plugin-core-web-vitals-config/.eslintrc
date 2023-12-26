@@ -1,0 +1,11 @@
+{
+  "extends": "plugin:neer/core-web-vitals",
+  "root": true,
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

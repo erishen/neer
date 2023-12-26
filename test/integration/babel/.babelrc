@@ -1,0 +1,4 @@
+{
+  "presets": ["neer/babel", "@babel/preset-flow"],
+  "plugins": [["transform-define", { "TEST_VAR": "hello" }]]
+}

@@ -1,0 +1,22 @@
+{
+  "env": {
+    "development": {
+      "presets": ["neer/babel"]
+    },
+    "production": {
+      "presets": ["neer/babel"]
+    },
+    "test": {
+      "presets": [
+        [
+          "neer/babel",
+          {
+            "preset-env": {
+              "modules": "commonjs"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

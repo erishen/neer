@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "neer/babel",
+      {
+        "preset-env": {
+          "targets": "chrome>71"
+        }
+      }
+    ]
+  ]
+}

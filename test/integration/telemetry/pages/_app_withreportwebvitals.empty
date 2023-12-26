@@ -1,0 +1,5 @@
+import App from 'neer/app'
+export default App
+export function reportWebVitals(metric) {
+  console.log(metric)
+}

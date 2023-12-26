@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "neer/babel",
+      {
+        "preset-typescript": {
+          "onlyRemoveTypeImports": false
+        }
+      }
+    ]
+  ]
+}

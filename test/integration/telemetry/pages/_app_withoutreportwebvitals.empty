@@ -1,0 +1,2 @@
+import App from 'neer/app'
+export default App

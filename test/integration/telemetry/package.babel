@@ -1,0 +1,10 @@
+{
+  "babel": {
+    "presets": [
+      "neer/babel"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  }
+}

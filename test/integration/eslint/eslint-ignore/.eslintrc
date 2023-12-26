@@ -1,0 +1,9 @@
+{
+  "extends": "next",
+  "root": true,
+  "rules": {
+    "neer/no-html-link-for-pages": 0,
+    "neer/no-sync-scripts": 1
+  },
+  "ignorePatterns": ["**/components/**"]
+}
