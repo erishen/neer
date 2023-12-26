@@ -1,6 +1,6 @@
 {
   "name": "@next/react-refresh-utils",
-  "version": "1.0.1",
+  "version": "1.0.16",
   "private": true,
   "description": "An experimental package providing utilities for React Refresh.",
   "repository": {

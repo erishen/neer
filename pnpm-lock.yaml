@@ -543,7 +543,7 @@ importers:
         specifier: ^6.5.1
         version: 6.6.1(eslint@8.31.0)
       eslint-plugin-neer:
-        specifier: 1.0.2
+        specifier: 1.0.16
         version: link:../eslint-plugin-next
       eslint-plugin-react:
         specifier: ^7.31.7
@@ -592,7 +592,7 @@ importers:
         specifier: '>= 3.1.0'
         version: 5.0.3
       neer-env:
-        specifier: 1.0.15
+        specifier: 1.0.16
         version: link:../next-env
       node-sass:
         specifier: ^6.0.0 || ^7.0.0
@@ -698,10 +698,10 @@ importers:
         specifier: 13.1.1
         version: 13.1.1(react-dom@18.2.0)(react@18.2.0)(webpack@5.74.0)
       '@next/react-refresh-utils':
-        specifier: 1.0.1
+        specifier: 1.0.16
         version: link:../react-refresh-utils
       '@next/swc':
-        specifier: 1.0.1
+        specifier: 1.0.16
         version: link:../next-swc
       '@segment/ajv-human-errors':
         specifier: 2.1.2
