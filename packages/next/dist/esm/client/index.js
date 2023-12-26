@@ -25,7 +25,7 @@ import { AppRouterContext } from '../shared/lib/app-router-context';
 import { adaptForAppRouterInstance, adaptForSearchParams, PathnameContextProviderAdapter } from '../shared/lib/router/adapters';
 import { SearchParamsContext } from '../shared/lib/hooks-client-context';
 import onRecoverableError from './on-recoverable-error';
-export const version = "1.0.16";
+export const version = "1.0.17";
 export let router;
 export const emitter = mitt();
 const looseToArray = (input)=>[].slice.call(input);

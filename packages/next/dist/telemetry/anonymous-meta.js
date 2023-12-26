@@ -74,7 +74,7 @@ function getAnonymousMeta() {
         isWsl: _isWsl.default,
         isCI: ciEnvironment.isCI,
         ciName: ciEnvironment.isCI && ciEnvironment.name || null,
-        nextVersion: "1.0.16"
+        nextVersion: "1.0.17"
     };
     return traits;
 }

@@ -1135,7 +1135,7 @@ async function getBaseWebpackConfig(dir, { buildId , config , compilerType , dev
             new _wellknownErrorsPlugin.WellKnownErrorsPlugin(),
             isClient && new _copyFilePlugin.CopyFilePlugin({
                 filePath: require.resolve("./polyfills/polyfill-nomodule"),
-                cacheKey: "1.0.16",
+                cacheKey: "1.0.17",
                 name: `static/chunks/polyfills${dev ? "" : "-[hash]"}.js`,
                 minimize: false,
                 info: {
@@ -1361,7 +1361,7 @@ async function getBaseWebpackConfig(dir, { buildId , config , compilerType , dev
         // Includes:
         //  - Next.js version
         //  - next.config.js keys that affect compilation
-        version: `${"1.0.16"}|${configVars}`,
+        version: `${"1.0.17"}|${configVars}`,
         cacheDirectory: _path.default.join(distDir, "cache", "webpack")
     };
     // Adds `next.config.js` as a buildDependency when custom webpack config is provided
