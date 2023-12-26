@@ -2,7 +2,7 @@
   "name": "neer-font",
   "version": "1.0.15",
   "repository": {
-    "url": "vercel/next.js",
+    "url": "https://github.com/erishen/neer",
     "directory": "packages/font"
   },
   "files": [
@@ -21,6 +21,5 @@
     "@types/fontkit": "2.0.0",
     "@vercel/ncc": "0.34.0",
     "fontkit": "2.0.2"
-  },
-  "gitHead": "41569dcc7332499c174d50d39cadecde3f5353ba"
+  }
 }

@@ -5,8 +5,7 @@
   "main": "./dist/server/next.js",
   "license": "MIT",
   "repository": "vercel/next.js",
-  "bugs": "https://github.com/vercel/next.js/issues",
-  "homepage": "https://nextjs.org",
+  "bugs": "https://github.com/erishen/neer/issues",
   "types": "index.d.ts",
   "files": [
     "dist",
@@ -293,6 +292,5 @@
   },
   "engines": {
     "node": ">=14.6.0"
-  },
-  "gitHead": "0733fc6c8de95527784c0050fe4f321d0742744a"
+  }
 }

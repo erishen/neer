@@ -10,10 +10,9 @@
   "description": "Next.js dotenv file loading",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel/next.js",
+    "url": "https://github.com/erishen/neer",
     "directory": "packages/next-env"
   },
-  "author": "Next.js Team <support@vercel.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -33,6 +32,5 @@
     "dotenv": "10.0.0",
     "dotenv-expand": "8.0.1",
     "rimraf": "3.0.2"
-  },
-  "gitHead": "41569dcc7332499c174d50d39cadecde3f5353ba"
+  }
 }
