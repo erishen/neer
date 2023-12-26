@@ -1,6 +1,6 @@
 {
   "name": "neer",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "The React Framework",
   "main": "./dist/server/next.js",
   "license": "MIT",
@@ -83,7 +83,7 @@
   "dependencies": {
     "@swc/helpers": "0.4.14",
     "caniuse-lite": "^1.0.30001406",
-    "neer-env": "1.0.16",
+    "neer-env": "1.0.17",
     "postcss": "8.4.14",
     "styled-jsx": "5.1.1"
   },

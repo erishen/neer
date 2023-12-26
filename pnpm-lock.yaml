@@ -543,7 +543,7 @@ importers:
         specifier: ^6.5.1
         version: 6.6.1(eslint@8.31.0)
       eslint-plugin-neer:
-        specifier: 1.0.16
+        specifier: 1.0.17
         version: link:../eslint-plugin-next
       eslint-plugin-react:
         specifier: ^7.31.7
@@ -592,7 +592,7 @@ importers:
         specifier: '>= 3.1.0'
         version: 5.0.3
       neer-env:
-        specifier: 1.0.16
+        specifier: 1.0.17
         version: link:../next-env
       node-sass:
         specifier: ^6.0.0 || ^7.0.0
