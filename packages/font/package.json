@@ -1,9 +1,14 @@
 {
   "name": "neer-font",
   "version": "1.0.16",
+  "homepage": "https://github.com/erishen/neer#readme",
   "repository": {
-    "url": "https://github.com/erishen/neer",
+    "type": "git",
+    "url": "git+https://github.com/erishen/neer",
     "directory": "packages/font"
+  },
+  "bugs": {
+    "url": "https://github.com/erishen/neer/issues"
   },
   "files": [
     "dist",

@@ -8,10 +8,14 @@
     "dotenv"
   ],
   "description": "Next.js dotenv file loading",
+  "homepage": "https://github.com/erishen/neer#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erishen/neer",
+    "url": "git+https://github.com/erishen/neer",
     "directory": "packages/next-env"
+  },
+  "bugs": {
+    "url": "https://github.com/erishen/neer/issues"
   },
   "license": "MIT",
   "main": "dist/index.js",

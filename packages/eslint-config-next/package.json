@@ -4,9 +4,14 @@
   "description": "ESLint configuration used by NextJS.",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/erishen/neer#readme",
   "repository": {
-    "url": "vercel/next.js",
-    "directory": "packages/eslint-config-neer"
+    "type": "git",
+    "url": "git+https://github.com/erishen/neer",
+    "directory": "packages/eslint-config-next"
+  },
+  "bugs": {
+    "url": "https://github.com/erishen/neer/issues"
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.3",

@@ -4,8 +4,15 @@
   "description": "The React Framework",
   "main": "./dist/server/next.js",
   "license": "MIT",
-  "repository": "vercel/next.js",
-  "bugs": "https://github.com/erishen/neer/issues",
+  "homepage": "https://github.com/erishen/neer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erishen/neer",
+    "directory": "packages/next"
+  },
+  "bugs": {
+    "url": "https://github.com/erishen/neer/issues"
+  },
   "types": "index.d.ts",
   "files": [
     "dist",
