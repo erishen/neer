@@ -106,7 +106,7 @@ function pageToRoute(page) {
 export default async function build(dir, conf = null, reactProductionProfiling = false, debugOutput = false, runLint = true, noMangling = false) {
     try {
         const nextBuildSpan = trace("next-build", undefined, {
-            version: "1.0.15"
+            version: "1.0.16"
         });
         const buildResult = await nextBuildSpan.traceAsyncFn(async ()=>{
             var ref6, ref1;

@@ -8,7 +8,7 @@ exports.appBootstrap = appBootstrap;
  * sure the following scripts are executed in the correct order:
  * - Polyfills
  * - next/script with `beforeInteractive` strategy
- */ const version = "1.0.15";
+ */ const version = "1.0.16";
 window.next = {
     version,
     appDir: true

@@ -33,7 +33,7 @@ var _appRouterContext = require("../shared/lib/app-router-context");
 var _adapters = require("../shared/lib/router/adapters");
 var _hooksClientContext = require("../shared/lib/hooks-client-context");
 var _onRecoverableError = _interop_require_default(require("./on-recoverable-error"));
-const version = "1.0.15";
+const version = "1.0.16";
 exports.version = version;
 let router;
 exports.router = router;

@@ -126,7 +126,7 @@ export default class HotReloader {
         this.previewProps = previewProps;
         this.rewrites = rewrites;
         this.hotReloaderSpan = trace("hot-reloader", undefined, {
-            version: "1.0.15"
+            version: "1.0.16"
         });
         // Ensure the hotReloaderSpan is flushed immediately as it's the parentSpan for all processing
         // of the current `next dev` invocation.
